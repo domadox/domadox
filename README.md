@@ -1,2 +1,2 @@
 Hi everyone 👋
-🌱 I’m currently learning how to use terraform to deploy cloud ressources on various hyperscaler.
+🌱 I'm currently learning how to use Terraform to provision cloud resources on different hyperscalers.
