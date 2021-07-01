@@ -1,7 +1,8 @@
 How to ignore and remove Terraform files from github repository sync?
 
 1. create a .gitignore file in your repository root
--> check out the example file in this repo -> https://github.com/domadox/domadox/blob/94bfa1bfb244dae201ae286980a9d5cd6ee91951/.gitignore
+check out the example file in this repo 
+-> https://github.com/domadox/domadox/blob/94bfa1bfb244dae201ae286980a9d5cd6ee91951/.gitignore
 
 It's a combination of...
 https://github.com/github/gitignore/blob/master/Terraform.gitignore
