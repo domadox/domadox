@@ -34,3 +34,9 @@ Index of IBM Cloud resources and data sources:
 https://registry.terraform.io/providers/IBM-Cloud/ibm/latest/docs
 
 https://cloud.ibm.com/docs/ibm-cloud-provider-for-terraform?topic=ibm-cloud-provider-for-terraform-index-of-terraform-on-ibm-cloud-resources-and-data-sources&locale=de
+
+
+###############################################################
+
+How to import existing resources from Azure to Terraform
+https://www.cloud-architect.fr/2020/09/02/how-to-easily-import-existing-azure-infrastructure-into-terraform/
