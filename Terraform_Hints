@@ -1,7 +1,7 @@
 How to ignore and remove Terraform files from github repository sync?
 
 1. create a .gitignore file in your repository root
-check out the example file in this repo 
+check out the example file in this repo
 -> https://github.com/domadox/domadox/blob/94bfa1bfb244dae201ae286980a9d5cd6ee91951/.gitignore
 
 It's a combination of...
@@ -17,3 +17,15 @@ git filter-branch -f --index-filter 'git rm --cached --ignore-unmatch .terraform
 https://stackoverflow.com/questions/54106816/git-remove-large-file-file-not-found
 
 https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
+
+
+
+Index of Azure Cloud resources and data sources:
+
+https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs
+
+
+
+Index of IBM Cloud resources and data sources:
+
+https://cloud.ibm.com/docs/ibm-cloud-provider-for-terraform?topic=ibm-cloud-provider-for-terraform-index-of-terraform-on-ibm-cloud-resources-and-data-sources&locale=de
