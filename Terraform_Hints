@@ -40,3 +40,18 @@ https://cloud.ibm.com/docs/ibm-cloud-provider-for-terraform?topic=ibm-cloud-prov
 
 How to import existing resources from Azure to Terraform
 https://www.cloud-architect.fr/2020/09/02/how-to-easily-import-existing-azure-infrastructure-into-terraform/
+
+
+1. Enumerate the ID of a specific resource
+az resource list --query "[?name=='fscimcbgewc0012']".[id] --output tsv
+
+2. Add a placeholder - type and name - of the resource in the main.tf file (see below)
+
+3. Import the resource into the terraform.state file
+terraform import azurerm_resource_type.resourcename /subscriptions/[subscription-id]/resourceGroups/larchtreepoc/providers/Microsoft.XYZ/resourcenameInAzure
+
+4. Output configuration of the previous imported resource
+terraform state show azurerm_resource_type.resourcename
+
+5. Copy Output and past it to the main.tf file.
+Now comes the funny part - there might to do some refinements in the file ^^
